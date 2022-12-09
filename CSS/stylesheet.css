@@ -101,8 +101,13 @@ section {
     -o-transition: 0.4s;
 }
 
-@media screen and (max-width: 500px) {
+/* make responsave pade  */
 
+@media screen and (max-width: 400px) {
+    .navbar__menu ul{
+      text-align: center;
+    }
+    
 
     .navbar__menu li a {
         font-size: 13px;
@@ -119,6 +124,7 @@ section {
         font-size: 15px;
     }
 }
+
 
 .navbar__menu .menu__link {
     display: block;
